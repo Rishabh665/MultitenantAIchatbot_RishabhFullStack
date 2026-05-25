@@ -1,7 +1,5 @@
-export default function Home() {
-  return (
-    <main className="p-10">
-      <h1 className="text-3xl font-bold">Multi-Tenant AI Assistant</h1>
-    </main>
-  );
+import ChatUI from "@/components/ChatUI";
+
+export default function HomePage() {
+  return <ChatUI />;
 }
